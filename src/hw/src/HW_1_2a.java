@@ -5,7 +5,7 @@ public class HW_1_2a {
         int maxElement = num[0];
         int count = 1;
 
-        for (int i = 1; i < num.length; i++) {
+        for (int i = 1; i < num.length; i++) {    //num.length используется, чтобы запомнить этот вариант для цикла for
             if (num[i] > maxElement) {
                 maxElement = num[i];
                 count = 1;
