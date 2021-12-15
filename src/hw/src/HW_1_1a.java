@@ -10,13 +10,15 @@ public class HW_1_1a {
         int x;
         if (a < b) {
             x = a;
-        } else x = b;
-        if (x < c) {
-            x = x;
-        } else x = c;
-        if (x < d) {
-            x = x;
-        } else x = d;
+        } else {
+            x = b;
+        }
+        if (x > c) {
+            x = c;
+        }
+        if (x > d) {
+            x = d;
+        }
         System.out.println(x);
     }
 }
