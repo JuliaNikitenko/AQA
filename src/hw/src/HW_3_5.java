@@ -15,7 +15,6 @@ public class HW_3_5 {
         double arrStorage = 0;
         for (int i = 0; i < n; i++) {
             arrStorage += arr[i];
-
         }
         double res = arrStorage/n;
         System.out.println(Arrays.toString(arr));
